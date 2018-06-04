@@ -1,7 +1,7 @@
 import socket, ssl, time
 
-host = "192.168.1.109"
-port = 10023
+host = "127.0.0.1"
+port = 10024
 socket_addr = (host, port)
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 

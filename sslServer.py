@@ -1,7 +1,7 @@
 import socket, ssl, time, thread
 
 host = "0.0.0.0"
-port = 10023
+port = 10024
 socket_addr = (host, port)
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.bind(socket_addr)
